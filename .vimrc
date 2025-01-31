@@ -1,0 +1,15 @@
+syntax on
+filetype on
+set noswapfile
+set number
+set noexpandtab
+set softtabstop=4
+set shiftwidth=4
+set tabstop=4
+set nobackup
+set incsearch
+set autoindent
+set showmode
+set smartindent
+set relativenumber
+colorscheme elflord
