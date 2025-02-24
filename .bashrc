@@ -8,9 +8,6 @@
 PS1='[\D{%a %d %b %Y %T} \W]\$ '
 EDITOR=vim
 TERM=foot
-CPPFLAGS="-I/usr/include"
-LDFLAGS="-L/usr/lib"
-PKG_CONFIG_PATH="/usr/lib/pkgconfig"
 
 alias pacman='sudo pacman'
 alias cd..='cd ..'
