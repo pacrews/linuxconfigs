@@ -14,7 +14,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term foot
+set $term wezterm
 # Your preferred application launcher
 set $menu wmenu-run
 
@@ -238,7 +238,7 @@ bar {
 	client.focused #323232 #323232 #ffffff #323232 #323232
 	client.unfocused #000000 #000000 #ffffff
 
-
+for_window [app_id="alacritty"] border none
 	
 exec systemctl --user import-environment WAYLAND_DISPLAY DISPLAY XDG_CURRENT_DESKTOP SWAYSOCK I3SOCK XCURSOR_SIZE XCURSOR_THEME
 exec dbus-update-activation-environment WAYLAND_DISPLAY DISPLAY XDG_CURRENT_DESKTOP SWAYSOCK I3SOCK XCURSOR_SIZE XCURSOR_THEME
