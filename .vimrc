@@ -15,9 +15,8 @@ set smartindent
 set relativenumber
 set cursorline
 set cursorcolumn
-set splitbelow
 set splitright
-set colorcolumn=91
+set splitbelow
 set mouse=a
 map <LeftMouse> <nop>
 noremap <MouseWheelUp> <C-u>

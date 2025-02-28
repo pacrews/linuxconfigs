@@ -7,18 +7,19 @@
 
 PS1='[\D{%a %d %b %Y %T} \W]\$ '
 EDITOR=vim
-TERM=foot
+TERM=wezterm
 
-alias pacman='sudo pacman'
+alias spacman='sudo pacman'
 alias cd..='cd ..'
 alias cdroot='cd /'
-alias poweroff='sudo shutdown now'
-alias reboot='sudo shutdown -r now'
+alias poweroff='shutdown now'
+alias reboot='shutdown -r now'
 alias vimbash='sudo vim ~/.bashrc'
 alias vimvim='sudo vim ~/.vimrc'
 alias vimsway="sudo vim ~/.config/sway/config"
 alias vimfoot="sudo vim ~/.config/foot/foot.ini"
 alias vimroot="sudo cp ~/.vimrc /root/.vimrc"
+alias vimwez="sudo vim ~/.config/wezterm/wezterm.lua"
 
 export WLR_NO_HARDWARE_CURSORS=1
 
